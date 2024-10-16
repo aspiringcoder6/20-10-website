@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/aspiringcoder6.github.io/20-10-website/static/css/main.b74ae4af.css",
+    "main.js": "/aspiringcoder6.github.io/20-10-website/static/js/main.a24bc82e.js",
+    "static/js/453.63e56de2.chunk.js": "/aspiringcoder6.github.io/20-10-website/static/js/453.63e56de2.chunk.js",
+    "static/media/Flower.ttf": "/aspiringcoder6.github.io/20-10-website/static/media/Flower.34348dd6d0ef5f94aa33.ttf",
+    "static/media/TKSouthMongolia-Regular.ttf": "/aspiringcoder6.github.io/20-10-website/static/media/TKSouthMongolia-Regular.a813dbc607348e359bbc.ttf",
+    "static/media/StarryFayez-JRW6B.ttf": "/aspiringcoder6.github.io/20-10-website/static/media/StarryFayez-JRW6B.696c78b5e06ae5fdd3d0.ttf",
+    "index.html": "/aspiringcoder6.github.io/20-10-website/index.html",
+    "main.b74ae4af.css.map": "/aspiringcoder6.github.io/20-10-website/static/css/main.b74ae4af.css.map",
+    "main.a24bc82e.js.map": "/aspiringcoder6.github.io/20-10-website/static/js/main.a24bc82e.js.map",
+    "453.63e56de2.chunk.js.map": "/aspiringcoder6.github.io/20-10-website/static/js/453.63e56de2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b74ae4af.css",
+    "static/js/main.a24bc82e.js"
+  ]
+}
