@@ -1,0 +1,82 @@
+.opening-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTo3fe2sUyaWYpxOQe39OWnLD7YkT6OmfnPg&s");
+  background-size: contain;
+  background-position: center;
+
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  opacity: 1;
+  transition: opacity 1s ease-in-out; /* Controls the fade-out duration */
+}
+.fade-out {
+  opacity: 0; /* Fades out the screen */
+}
+
+.opening-text {
+  font-family: "Starryfont";
+  color: rgb(255, 22, 220);
+  font-size: 2rem;
+  text-align: center;
+  width: 90%;
+  text-shadow: 0 0 10px rgba(255, 144, 238, 0.5),
+    /* White glow */ 0 0 15px rgba(255, 144, 238, 0.3),
+    /* Soft outer glow */ 0 0 20px rgba(255, 144, 238, 0.2); /* Fainter outer glow */
+  animation: glow 1.5s infinite alternate;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5),
+      0 0 10px rgba(255, 255, 255, 0.3), 0 0 15px rgba(255, 255, 255, 0.2);
+  }
+  to {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1),
+      0 0 20px rgba(255, 255, 255, 0.7), 0 0 30px rgba(255, 255, 255, 0.5);
+  }
+}
+
+.hidden {
+  visibility: hidden;
+}
+.girlImageHolder {
+  position: absolute;
+}
+.girlImageHolder img {
+  width: 120px;
+}
+.frame {
+  width: 210px !important;
+  height: 200px;
+  position: fixed;
+  transform: translate(-10%, -10%);
+}
+.girlImageHolder p {
+  font-family: "Vietfont";
+  font-size: 40px;
+  text-align: center;
+  margin-left: -10px;
+  margin-top: 0;
+}
+.heart {
+  position: fixed;
+  z-index: -1 !important;
+  width: 200%;
+  animation: beating 2s ease infinite;
+}
+@keyframes beating {
+  0% {
+    width: 180%;
+  }
+  50% {
+    width: 220%;
+  }
+  100% {
+    width: 180%;
+  }
+}

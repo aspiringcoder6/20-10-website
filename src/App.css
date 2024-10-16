@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+.sky {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(to bottom, #87ceeb, #88e1ff, #79bcff);
+  overflow: hidden;
+}
+.cloud {
+  position: absolute;
+  top: 0;
+  left: -200px; /* Start from off-screen left */
+  width: 150px; /* Adjust cloud size as needed */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes floatCloud {
+  0% {
+    left: -200px; /* Start from off-screen left */
+  }
+  100% {
+    left: 100vw; /* Move to off-screen right */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: transparent;
+}
+.stars::after {
+  content: "";
+  width: 2px;
+  height: 2px;
+  position: absolute;
+  background: transparent;
+  box-shadow: 2vw 5vh #ffffff, 10vw 8vh #ffffff, 15vw 12vh #ffffff,
+    22vw 4vh #ffffff, 30vw 15vh #ffffff, 35vw 7vh #ffffff, 40vw 11vh #ffffff,
+    48vw 16vh #ffffff, 55vw 9vh #ffffff, 60vw 14vh #ffffff, 70vw 5vh #ffffff,
+    75vw 18vh #ffffff, 80vw 3vh #ffffff, 90vw 12vh #ffffff, 95vw 19vh #ffffff,
+    105vw 8vh #ffffff, 110vw 20vh #ffffff, 120vw 7vh #ffffff, 130vw 13vh #ffffff,
+    140vw 2vh #ffffff, 150vw 10vh #ffffff, 160vw 15vh #ffffff,
+    170vw 11vh #ffffff, 180vw 6vh #ffffff, 190vw 16vh #ffffff; /*Just a lot of stars positions */
 }
 
-.App-link {
-  color: #61dafb;
+/* Adding a twinkle effect */
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.stars::after {
+  animation: twinkle 2s infinite;
 }

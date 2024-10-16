@@ -1,0 +1,105 @@
+.flowerButton {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  background: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in, filter 0.3s ease;
+  border: none;
+}
+.flowerButton.show {
+  opacity: 1;
+}
+.flowerButton.lighter {
+  opacity: 0;
+}
+.flowerText.complimentText {
+  margin-top: 30%;
+  font-size: 40px;
+  z-index: 9999;
+  font-family: "Vietfont";
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+.flowerButton img {
+  width: 40vw;
+}
+.flowerButton p {
+  font-family: "Vietfont";
+  position: absolute;
+  font-size: 45px;
+  color: white;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+}
+@font-face {
+  font-family: "Starryfont";
+  src: url("../assets/fonts/StarryFayez-JRW6B.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Flowerfont";
+  src: url("../assets/fonts/Flower.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Vietfont";
+  src: url("../assets/fonts/TKSouthMongolia-Regular.ttf") format("truetype");
+}
+
+.flowerText {
+  font-family: "Vietfont";
+  text-align: center;
+  z-index: 10;
+  margin-top: 60%;
+  font-size: 45px;
+  color: rgb(255, 255, 167);
+}
+@keyframes brighten {
+  0% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(1.4);
+  }
+  100% {
+    filter: brightness(1);
+  }
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px rgba(255, 255, 0, 0.8), 0 0 10px rgba(255, 255, 0, 0.6),
+      0 0 15px rgba(255, 255, 0, 0.4);
+  }
+  to {
+    text-shadow: 0 0 10px rgba(255, 255, 0, 1),
+      /* Brighter glow */ 0 0 20px rgba(255, 255, 0, 0.7),
+      /* Stronger outer glow */ 0 0 30px rgba(255, 255, 0, 0.5); /* Fainter outer glow */
+  }
+}
+/* Bee */
+.bee {
+  position: fixed;
+  width: 50px;
+  top: 100px;
+  transition: top 0.5s ease-out, left 0.5s ease-out;
+  animation: buzz 1s ease infinite;
+}
+
+@keyframes buzz {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
