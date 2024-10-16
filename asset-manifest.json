@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/20-10-website/static/css/main.285a0a0c.css",
-    "main.js": "/20-10-website/static/js/main.4cc7cdf4.js",
-    "static/js/453.63e56de2.chunk.js": "/20-10-website/static/js/453.63e56de2.chunk.js",
-    "static/media/Flower.ttf": "/20-10-website/static/media/Flower.34348dd6d0ef5f94aa33.ttf",
-    "static/media/TKSouthMongolia-Regular.ttf": "/20-10-website/static/media/TKSouthMongolia-Regular.a813dbc607348e359bbc.ttf",
-    "static/media/StarryFayez-JRW6B.ttf": "/20-10-website/static/media/StarryFayez-JRW6B.696c78b5e06ae5fdd3d0.ttf",
-    "index.html": "/20-10-website/index.html",
-    "main.285a0a0c.css.map": "/20-10-website/static/css/main.285a0a0c.css.map",
-    "main.4cc7cdf4.js.map": "/20-10-website/static/js/main.4cc7cdf4.js.map",
-    "453.63e56de2.chunk.js.map": "/20-10-website/static/js/453.63e56de2.chunk.js.map"
+    "main.css": "/static/css/main.128519a3.css",
+    "main.js": "/static/js/main.03ebb420.js",
+    "static/js/453.63e56de2.chunk.js": "/static/js/453.63e56de2.chunk.js",
+    "static/media/Flower.ttf": "/static/media/Flower.34348dd6d0ef5f94aa33.ttf",
+    "static/media/TKSouthMongolia-Regular.ttf": "/static/media/TKSouthMongolia-Regular.a813dbc607348e359bbc.ttf",
+    "static/media/StarryFayez-JRW6B.ttf": "/static/media/StarryFayez-JRW6B.696c78b5e06ae5fdd3d0.ttf",
+    "index.html": "/index.html",
+    "main.128519a3.css.map": "/static/css/main.128519a3.css.map",
+    "main.03ebb420.js.map": "/static/js/main.03ebb420.js.map",
+    "453.63e56de2.chunk.js.map": "/static/js/453.63e56de2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.285a0a0c.css",
-    "static/js/main.4cc7cdf4.js"
+    "static/css/main.128519a3.css",
+    "static/js/main.03ebb420.js"
   ]
 }
