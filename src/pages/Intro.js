@@ -109,7 +109,7 @@ export default function Intro() {
             style={{ position: "relative" }}
           >
             <img
-              src="./floweryplaque.png"
+              src="/floweryplaque.png"
               style={{ width: "100%", marginTop: "-30px", marginLeft: "10px" }}
             />
             <input
@@ -143,14 +143,14 @@ export default function Intro() {
                 }`}
                 onClick={handleButtonClick}
               >
-                <img src="./flowerButton.png" />
+                <img src="/flowerButton.png" />
                 <p>Confirm</p>
               </button>
             )}
           </div>
         </div>
         <img
-          src="./sunny.gif"
+          src="/sunny.gif"
           style={{
             position: "fixed",
             width: "50vw",

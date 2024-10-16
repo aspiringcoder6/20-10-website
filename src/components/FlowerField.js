@@ -3,11 +3,11 @@ export default function FlowerField() {
   return (
     <div className="flowerField">
       <img
-        src="./field.png"
+        src="/field.png"
         style={{ width: "100%", position: "fixed", bottom: 0, zIndex: 1 }}
       />
       <img
-        src="./flower1.png"
+        src="/flower1.png"
         style={{
           position: "fixed",
           zIndex: 10,
@@ -17,7 +17,7 @@ export default function FlowerField() {
         }}
       />
       <img
-        src="./flower1.png"
+        src="/flower1.png"
         style={{
           position: "fixed",
           zIndex: 10,
@@ -27,7 +27,7 @@ export default function FlowerField() {
         }}
       />
       <img
-        src="./flower2.png"
+        src="/flower2.png"
         style={{
           position: "fixed",
           zIndex: 10,
@@ -38,7 +38,7 @@ export default function FlowerField() {
         }}
       />
       <img
-        src="./flower3.png"
+        src="/flower3.png"
         style={{
           position: "fixed",
           zIndex: 10,
@@ -49,7 +49,7 @@ export default function FlowerField() {
         }}
       />
       <img
-        src="./flower4.png"
+        src="/flower4.png"
         style={{
           position: "fixed",
           zIndex: 10,
@@ -60,7 +60,7 @@ export default function FlowerField() {
         }}
       />
       <img
-        src="./flower5.png"
+        src="/flower5.png"
         style={{
           position: "fixed",
           zIndex: 10,

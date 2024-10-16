@@ -32,7 +32,7 @@ export default function ComplimentStack({ messages, name, senders }) {
         >
           <div style={{ position: "relative" }}>
             <img
-              src="./postcard.png"
+              src="/postcard.png"
               alt="postcard"
               style={{ height: "280px" }}
             />

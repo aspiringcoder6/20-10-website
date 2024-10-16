@@ -33,7 +33,7 @@ export default function Bee({ butterfly }) {
   if (!butterfly) {
     return (
       <img
-        src={facingRight ? "./bee-right.png" : "./bee-left.png"}
+        src={facingRight ? "/bee-right.png" : "/bee-left.png"}
         className={`bee`}
         style={{
           top: `${beePosition.top}px`,
@@ -45,7 +45,7 @@ export default function Bee({ butterfly }) {
   } else {
     return (
       <img
-        src={"./butterfly.gif"}
+        src={"/butterfly.gif"}
         className={`bee`}
         style={{
           width: "80px",
