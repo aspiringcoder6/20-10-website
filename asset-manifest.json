@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/20-10-website/static/css/main.86ec1fac.css",
-    "main.js": "/20-10-website/static/js/main.f8f797cb.js",
+    "main.css": "/20-10-website/static/css/main.4ab4a9b0.css",
+    "main.js": "/20-10-website/static/js/main.0af9a0d0.js",
     "static/js/453.63e56de2.chunk.js": "/20-10-website/static/js/453.63e56de2.chunk.js",
     "static/media/Flower.ttf": "/20-10-website/static/media/Flower.34348dd6d0ef5f94aa33.ttf",
     "static/media/TKSouthMongolia-Regular.ttf": "/20-10-website/static/media/TKSouthMongolia-Regular.a813dbc607348e359bbc.ttf",
     "static/media/StarryFayez-JRW6B.ttf": "/20-10-website/static/media/StarryFayez-JRW6B.696c78b5e06ae5fdd3d0.ttf",
     "index.html": "/20-10-website/index.html",
-    "main.86ec1fac.css.map": "/20-10-website/static/css/main.86ec1fac.css.map",
-    "main.f8f797cb.js.map": "/20-10-website/static/js/main.f8f797cb.js.map",
+    "main.4ab4a9b0.css.map": "/20-10-website/static/css/main.4ab4a9b0.css.map",
+    "main.0af9a0d0.js.map": "/20-10-website/static/js/main.0af9a0d0.js.map",
     "453.63e56de2.chunk.js.map": "/20-10-website/static/js/453.63e56de2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86ec1fac.css",
-    "static/js/main.f8f797cb.js"
+    "static/css/main.4ab4a9b0.css",
+    "static/js/main.0af9a0d0.js"
   ]
 }
